@@ -14,6 +14,10 @@ export default function Home() {
     setTitle('');
     console.log(nuevoTitulo)
   }
+  const eliminarTitulo = (index: number) =>{
+    const titulosActualizados = nuevoTitulo.filter((_, i) => i !== index); // Filtramos para eliminar el título en el índice dado
+    setNuevoTitulo(titulosActualizados);
+  }
 
   return (
     <main>
@@ -29,13 +33,16 @@ export default function Home() {
           <section key={index}>
             <h1 key={index}>{nuevoTitulo}</h1>
             <label>
-              <input type="checkbox" key={index} />
+              <input type="checkbox" />
               me gusta
             </label>
             <label>
-              <input type="checkbox" key={index} />
+              <input type="checkbox"/>
               no me gusta
             </label>
+            <button onClick={()=>eliminarTitulo(index)}>
+              eliminar
+            </button>
           </section>
         ))}
        
