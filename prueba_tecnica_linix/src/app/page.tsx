@@ -27,7 +27,7 @@ export default function Home() {
        placeholder='ingresa un tema a evaluar' 
        value={title}
        onChange={manejarValor} 
-       />
+       /> 
        <button onClick={crearTitulo}>crear nuevo gusto</button>
         {nuevoTitulo.map((nuevoTitulo,index)=>(
           <section key={index}>
