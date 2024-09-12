@@ -20,6 +20,8 @@
   - Ver detalles del restaurante:
     El usuario puede hacer clic en un restaurante para ver más detalles, como la dirección, calificación general, y si es posible, un menú o fotos.
 
+    # Estructura del Proyecto
+
 proyecto/
 ├── src/
 │   ├── app/
@@ -30,7 +32,7 @@ proyecto/
 │   ├── components/      - Componentes reutilizables
 │   ├── api/             - Rutas API generales
 │   │   ├── auth/        - Rutas relacionadas con autenticación
-│   │   ├── restauran/   - Rutas API de restaurantes
+│   │   ├── restaurant/  - Rutas API de restaurantes
 │   │   └── search/      - API de búsqueda
 │   ├── services/        - Integrar API externas y lógica backend
 │   ├── lib/             - Funciones utilitarias y helpers
@@ -39,6 +41,7 @@ proyecto/
 │   ├── middlewares/     - Middlewares            
 │   ├── styles/          - Archivos de estilos
 │   └── prisma/          - Esquemas de la base de datos
+
 
 
 gracias  IA :) ;
