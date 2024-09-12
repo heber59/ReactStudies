@@ -20,7 +20,28 @@
   - Ver detalles del restaurante:
     El usuario puede hacer clic en un restaurante para ver más detalles, como la dirección, calificación general, y si es posible, un menú o fotos.
 
+proyecto/
+├── src/
+│   ├── app/
+│   ├── restaurant/      - Lógica relacionada con los restaurantes
+│   │   └── api/
+│   ├── search/          - Funcionalidades de búsqueda
+│   │   └── api/
+│   ├── components/      - Componentes reutilizables
+│   ├── api/             - Rutas API generales
+│   │   ├── auth/        - Rutas relacionadas con autenticación
+│   │   ├── restauran/   - Rutas API de restaurantes
+│   │   └── search/      - API de búsqueda
+│   ├── services/        - Integrar API externas y lógica backend
+│   ├── lib/             - Funciones utilitarias y helpers
+│   ├── store/           - Estado global de la aplicación           
+│   ├── hooks/           - Hooks personalizados            
+│   ├── middlewares/     - Middlewares            
+│   ├── styles/          - Archivos de estilos
+│   └── prisma/          - Esquemas de la base de datos
 
+
+gracias  IA :) ;
 ### Getting Started
 
 First, run the development server:
