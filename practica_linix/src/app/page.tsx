@@ -34,8 +34,7 @@ export default function Home() {
             <h1 key={index}>{nuevoTitulo}</h1>
             <label>
               <input type="checkbox" />
-              me gusta
-            </label>
+              me gusta           </label>
             <label>
               <input type="checkbox"/>
               no me gusta
