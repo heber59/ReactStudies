@@ -1,9 +1,10 @@
  ## gusta o no gusta
  - he decidido que sera una pagina donde se podra calificar restaurantes
- - 
 
- ## Tecnologías:
+ ## Tecnologías: 
+
  - Autenticación: NextAuth.js.
+
  - Base de datos: Prisma (postgres SQL).
  - Estado global: Redux Toolkit.
  - Estilos: TailwindCSS probable scss .
@@ -25,14 +26,14 @@
 proyecto/
 ├── src/
 │   ├── app/
-│   ├── restaurant/      - Lógica relacionada con los restaurantes
-│   │   └── api/
-│   ├── search/          - Funcionalidades de búsqueda
-│   │   └── api/
-│   ├── components/      - Componentes reutilizables
+│   ├── restaurant/      -Lógica relacionada con los restaurantes
+│   │   └── api/       
+│   ├── search/         - Funcionalidades de búsqueda
+│   │   └── api/      
+│   ├── components/     - Componentes reutilizables
 │   ├── api/             - Rutas API generales
 │   │   ├── auth/        - Rutas relacionadas con autenticación
-│   │   ├── restaurant/  - Rutas API de restaurantes
+│   │   ├──restauran/   - Rutas API de restaurantes
 │   │   └── search/      - API de búsqueda
 │   ├── services/        - Integrar API externas y lógica backend
 │   ├── lib/             - Funciones utilitarias y helpers
@@ -41,7 +42,6 @@ proyecto/
 │   ├── middlewares/     - Middlewares            
 │   ├── styles/          - Archivos de estilos
 │   └── prisma/          - Esquemas de la base de datos
-
 
 
 gracias  IA :) ;
