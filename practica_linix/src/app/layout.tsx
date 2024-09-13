@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 
-import "./globals.css";
-
+//import "./globals.css";
+ import "../styles/global.css"
 
 export const metadata: Metadata = {
-  title: "crud",
-  description: "create a crud about likes",
+  title: "Comelon",
+  description: "Mejores restaurantes",
 };
 
 export default function RootLayout({

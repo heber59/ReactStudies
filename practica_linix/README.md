@@ -23,25 +23,26 @@
 
     # Estructura del Proyecto
 
-- proyecto/
-- ├── src/
-- │   ├── app/
-- │   ├── restaurant/      -Lógica relacionada con los restaurantes
-- │   │   └── api/       
-- │   ├── search/         - Funcionalidades de búsqueda
-- │   │   └── api/      
-- │   ├── components/     - Componentes reutilizables
-- │   ├── api/             - Rutas API generales
-- │   │   ├── auth/        - Rutas relacionadas con autenticación
-- │   │   ├──restauran/   - Rutas API de restaurantes
-- │   │   └── search/      - API de búsqueda
-- │   ├── services/        - Integrar API externas y lógica backend
-- │   ├── lib/             - Funciones utilitarias y helpers
-- │   ├── store/           - Estado global de la aplicación           
-- │   ├── hooks/           - Hooks personalizados            
-- │   ├── middlewares/     - Middlewares            
-- │   ├── styles/          - Archivos de estilos
-- │   └── prisma/          - Esquemas de la base de datos
+|   proyecto/
+|   ├── src/
+|   │   ├── app/
+|   │   ├── restaurant/      -Lógica relacionada con los restaurantes
+|   │   │   └── api/       
+|   │   ├── search/         - Funcionalidades de búsqueda
+|   │   │   └── api/      
+|   │   ├── components/     - Componentes reutilizables
+   │   ├── api/             - Rutas API generales
+|   │   │   ├── auth/        - Rutas relacionadas con autenticación
+|   │   │   ├──restauran/   - Rutas API de restaurantes
+|   │   │   └── search/      - API de búsqueda
+|   │   ├── services/        - Integrar API externas y lógica backend
+|   │   ├── lib/             - Funciones utilitarias y helpers
+|   │   ├── store/           - Estado global de la aplicación           
+|   │   ├── hooks/           - Hooks personalizados            
+|   │   ├── middlewares/     - Middlewares            
+|   │   ├── styles/          - Archivos de estilos
+|   │   └── prisma/          - Esquemas de la base de datos
+
 
 
 gracias  IA :) ;

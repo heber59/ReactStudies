@@ -1,9 +1,12 @@
-'use client'
-import React, { useState } from 'react';
+//'use client'
 
+import NavComponent from "@/components/nav_landing";
+import React from "react";
+
+//import React, { useState } from 'react';
 
 export default function Home() {
-  const  [title,setTitle] = useState("");
+  /*const  [title,setTitle] = useState("");
   const [nuevoTitulo,setNuevoTitulo] = useState<string[]>([]);
 
   const manejarValor = (e: React.ChangeEvent<HTMLInputElement>) =>{
@@ -18,9 +21,9 @@ export default function Home() {
     const titulosActualizados = nuevoTitulo.filter((_, i) => i !== index); // Filtramos para eliminar el título en el índice dado
     setNuevoTitulo(titulosActualizados);
   }
-
+    */
   return (
-    <main>
+    /*<main>
       <input
       className='bg-black text-white'
        type="text"
@@ -46,6 +49,15 @@ export default function Home() {
         ))}
        
     </main>
-    
+    */
+        // todo este codigo comentado sera usado mas adelante aqui va a ir landing page.
+    <main>
+      <header>
+        <NavComponent/>
+      </header>
+      <footer>
+        <p>Y tu ya votaste ?</p>
+      </footer>
+    </main>
   );
 }
