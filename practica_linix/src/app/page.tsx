@@ -1,7 +1,8 @@
 //'use client'
 
-import NavComponent from "@/components/nav_landing";
+import NavComponent from "@/components/nav";
 import React from "react";
+import Footer from "@/components/footer";
 
 //import React, { useState } from 'react';
 
@@ -51,13 +52,11 @@ export default function Home() {
     </main>
     */
         // todo este codigo comentado sera usado mas adelante aqui va a ir landing page.
-    <main>
-      <header>
+    <main className="w-screen h-screen flex flex-col justify-between">
+      <header >
         <NavComponent/>
       </header>
-      <footer>
-        <p>Y tu ya votaste ?</p>
-      </footer>
+      <Footer/>
     </main>
   );
 }
