@@ -31,7 +31,7 @@
 |   │   ├── search/         - Funcionalidades de búsqueda
 |   │   │   └── api/      
 |   │   ├── components/     - Componentes reutilizables
-   │   ├── api/             - Rutas API generales
+|   |   ├── api/             - Rutas API generales
 |   │   │   ├── auth/        - Rutas relacionadas con autenticación
 |   │   │   ├──restauran/   - Rutas API de restaurantes
 |   │   │   └── search/      - API de búsqueda
