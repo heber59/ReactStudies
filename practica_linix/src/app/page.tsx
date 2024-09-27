@@ -3,7 +3,7 @@
 import NavComponent from "@/components/nav";
 import React from "react";
 import Footer from "@/components/footer";
-import staredRestaurants from "@/components/starRestaurants";
+import StaredRestaurants from "@/components/starRestaurants";
 
 //import React, { useState } from 'react';
 
@@ -57,10 +57,8 @@ export default function Home() {
       <header >
         <NavComponent/>
       </header>
-      <main> 
-        <staredRestaurants/>
-      </main>      
+      <StaredRestaurants/>     
       <Footer/>
-    </main>
+    </main>     
   );
 }
